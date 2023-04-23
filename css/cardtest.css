@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@import
+	url(https://fonts.googleapis.com/css?family=Vidaloka|Oswald:400,300);
+
+
+#card1{
+	margin-left: 50pt;
+	margin-right:50pt;
+	
+	float: left;
+}
+#card2{
+	float: left;
+}
+#card3{
+	margin-right:50pt;
+	margin-left:80px;
+	float: left;
+}
+#card4{
+	float: left;
+}
+#card5{
+	margin-left:80px;
+	float: left;
+}
+#more{
+	float: left;
+	margin-top: 300px;
+	margin-left: 100px;
+}
+
+.carousel-inner{
+	border: solid black;
+	width: 800px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	 
+}
+.carousel-indicators li{
+background-color: black;
+}
+.carousel-control-next-icon {
+    height: 20pt;
+    width: 20pt;
+    background-color: black;
+    position: absolute;
+    left: -110pt;
+    }
+.carousel-control-prev{
+    height: 20pt;
+    width: 20pt;
+    background-color: black;
+    position: absolute;
+    left: 250pt;
+    top: 235pt;}
+a{
+color:black;
+}    
+.container {
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background: lighten(navajowhite, 10);
+}
+
+.card {
+	position: relative;
+	height: 520px;
+	width: 300px;
+	background: #fff;
+	margin: 50px auto 0; 
+	overflow: hidden;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);}
+.card hr
+	{
+	margin:30px;
+	position: relative;
+    top: -50px;
+
+
+}
+.border {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	height: 490px;
+	width: 270px;
+	border: 3px double #aaa;
+}/*두줄 태두리 */
+
+.propil {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	overflow: hidden;
+	position: relative;
+	top: -40pt;
+    left: 70pt;
+	}/*사진 넣는 박스 */
+	.propil img { width : 100px;
+	margin-left: -10px;
+	}/*사진*/
+
+
+#review-outer {
+	border:solid 1px #aaa;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	padding:10px;
+	height: 200px;
+	width: 80%;
+	}/*리뷰박스*/
+.review{
+width:100%;
+height: 150px;
+border:black;	
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+word-wrap: break-word;
+line-height: 2;
+-webkit-line-clamp: 6;
+display: -webkit-box;
+}		
+#score{
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+    top: 50px;
+}
+#nickname{
+	border:black;
+	text-align: center;
+	font-family: 'Vidaloka', cursive;
+	font-size: 20pt;
+	position: relative;
+    top: -35pt;
+	
+}
+#footer{
+ 	font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: -50pt;	
+}
+.footer-sub{
+	margin-left:5px;
+	margin-right: 5px; 
+	
+}
+#card1{
+	float: left;
+}
+#card2{
+	float: left;
+}
+#card3{
+	float: left;
+}

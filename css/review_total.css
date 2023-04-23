@@ -1,0 +1,100 @@
+@charset "UTF-8";
+ 
+#outer {
+	width:80%;
+	border: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+#page-tilte{
+	font-weight:bold;
+	font-size: 20pt;
+	
+}
+#review-count{
+	font-weight:bold;
+	font-size: 15pt;
+}
+#array {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	
+}
+
+#Best {
+	font-weight:bold;
+	position: relative;
+	left: 200px;
+}
+#Best:hover{
+ cursor: pointer;
+ color:#F58700;
+}
+
+#Latest {
+	font-weight:bold;
+	position: relative;
+	left: 600px;
+}
+#Latest:hover{
+ cursor: pointer;
+ color:#F58700;
+}
+
+.review-outer {
+	width: 600px;
+	height: 200px;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#head {
+	margin: 10px;
+}
+
+#propil2 {
+	border: rgba(0, 0, 0, 0.3);
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+}
+
+#nickname2 {
+	font-size: 10pt;
+	margin-right: 430px; 
+	font-weight: bold; 
+	margin-left: 10px;                     
+}
+.score{
+	font-size: 13pt;
+}
+
+#text {
+	width: 95%;
+	height: 80px;
+	border: 0px;
+	margin-left: 10px;
+}
+
+#date {
+	font-size:10pt;
+	float: right;
+	position: relative;
+	top:-5px;
+}
+.heart{
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+.double-line{
+	border-style: double;
+}
